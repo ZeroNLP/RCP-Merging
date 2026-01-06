@@ -1,5 +1,69 @@
 # RCP-Merging
-[AAAI2026]: Official Code of "RCP-Merging: Merging Long Chain-of-Thought Models with Domain-Specific Models by Considering Reasoning Capability as Prior"
 
+[AAAI 2026 Main Track]: Official Code of "RCP-Merging: Merging Long Chain-of-Thought Models with Domain-Specific Models by Considering Reasoning Capability as Prior"
 
-The source code will be released soon.
+## Overview
+This is the repository designed for merging and evaluating fine-tuned models. It provides tools for model merging, evaluation, and gibberish detection. This README provides a detailed guide to the repository structure and instructions for usage.
+
+## Repository Structure
+
+### 1. `baselines/`
+This directory contains baseline implementations for model merging. It includes the following subdirectories:
+
+- **`catmerge/`**: Implements the `cat_merge.py` script for merging models using concatenation techniques. Users need to configure environment variables for paths and hyperparameters before running the script.
+- **`examples/`**: Contains YAML configuration files for different merging methods, such as `dare_linear.yml` and `ties.yml`. These files specify model paths, weights, and merging parameters.
+- **`mergekit/`**: Provides utilities and scripts for advanced merging techniques. (Note: The README for this directory is missing.)
+- **`sensmerge/`**: Implements the "Sens-Merging" algorithm. This method calculates task-specific sensitivities and alignment scores to derive optimal merging coefficients. Dependencies can be installed using:
+  ```bash
+  pip install torch transformers tqdm
+  ```
+
+### 2. `evaluation/`
+This directory contains scripts for evaluating merged models on various datasets. For example:
+- **`experiment_ARC.py`**: Evaluates models on the ARC-Challenge dataset. Users need to specify model paths and prompts for different model types (e.g., Qwen, Llama).
+
+### 3. `gibberish/`
+This directory includes tools for detecting gibberish in model outputs. Key files:
+- **`detect_gibberish.py`**: Python script for gibberish detection.
+- **`gibberish_detector_pubmed.py`**: Specialized script for detecting gibberish in PubMed data.
+
+### 4. `requirements.txt`
+Lists all dependencies required for the repository. Install them using:
+```bash
+pip install -r requirements.txt
+```
+
+## Getting Started
+
+### Step 1: Clone the Repository
+```bash
+git clone <repository-url>
+cd RCP-Merging
+```
+
+### Step 2: Set Up the Environment
+Ensure you have Python 3.10 installed. Create and activate a virtual environment:
+```bash
+conda create -n merge_model python=3.10 -y
+conda activate merge_model
+```
+
+### Step 3: Install Dependencies
+Upgrade `pip` and install all required packages:
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### Step 4: Run Scripts
+- **Model Merging**: Navigate to `baselines/` and run the desired merging script (e.g., `cat_merge.py`). Ensure all environment variables are set.
+- **Evaluation**: Navigate to `evaluation/` and execute the relevant experiment script (e.g., `experiment_ARC.py`).
+- **Gibberish Detection**: Navigate to `gibberish/` and run the detection scripts.
+
+## Notes
+- Ensure all paths in configuration files and scripts are updated to match your local setup.
+- Refer to individual README files in subdirectories for more details.
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue for discussion.
+
