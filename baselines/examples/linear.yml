@@ -1,0 +1,12 @@
+models:
+  - model: /data/transformers/Qwen2.5-7B # Base
+    parameters:
+      weight: 0.3
+  - model: /data/transformers/Meditron3-Qwen2.5-7B # Medical
+    parameters:
+      weight: 0.3
+  - model: /data/transformers/DeepSeek-R1-Distill-Qwen-7B # Reasoning
+    parameters:
+      weight: 0.3
+merge_method: linear
+dtype: float16

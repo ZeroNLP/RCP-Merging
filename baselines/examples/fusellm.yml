@@ -1,0 +1,9 @@
+models:
+  - model: /data/transformers/Qwen2.5-7B # Base
+  - model: /data/transformers/Meditron3-Qwen2.5-7B # Medical
+  - model: /data/transformers/DeepSeek-R1-Distill-Qwen-7B # Reasoning
+merge_method: sce
+base_model: /data/transformers/Qwen2.5-7B # Base
+parameters:
+  select_topk: 1
+dtype: bfloat16
