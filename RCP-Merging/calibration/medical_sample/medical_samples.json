@@ -1,0 +1,68 @@
+[
+    {
+        "question": "For very high force contractions lasting 1-2 seconds, the initial energy source is from: ATP stores.",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "Glycolysis.",
+            "creatine phosphorylation.",
+            "phosphocreatine stores.",
+            "ATP stores."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Hypernatraemic dehydration is: water intake is less than is needed to maintain balance.",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "water intake is less than is needed to maintain balance.",
+            "water intake is more than is needed to maintain balance.",
+            "blood volume is lost due to trauma or burns.",
+            "blood volume is lost due to surgery."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A person is prescribed Ropinirole 1.5 mg divided into three doses. How many micrograms is each dose? Choose one answer from the following: 500",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "5",
+            "50",
+            "0.5",
+            "500"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Adequate serum levels of calcium are maintained in humans by the secretion of parathyroid hormone.",
+        "subject": "college_biology",
+        "choices": [
+            "thyroxine",
+            "glucagon",
+            "growth hormone",
+            "parathyroid hormone"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Antibiotics that affect bacterial cells interfere with all of the following EXCEPT reverse transcriptase",
+        "subject": "college_biology",
+        "choices": [
+            "peptidoglycan synthesis",
+            "protein synthesis",
+            "DNA synthesis",
+            "reverse transcriptase"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Nerve outgrowth from a developing neuron begins at the growth cone, located at the tip of the axon. Microspikes of the growth cone extend and retract in order to move the growth cone forward. Exposure of the neuron to cytochasalin B at this stage of development causes microfilaments in the microspike to undergo reversible depolymerization",
+        "subject": "college_biology",
+        "choices": [
+            "microtubules in the axon to undergo reversible dissociation",
+            "microtubules in the axon to undergo irreversible dissociation",
+            "microfilaments in the microspike to undergo reversible depolymerization",
+            "microfilaments in the microspike to undergo irreversible depolymerization"
+        ],
+        "answer": 2
+    }
+]

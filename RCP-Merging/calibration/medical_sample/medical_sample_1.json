@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the best explanation for why net primary productivity in terrestrial ecosystems tends to increase toward the tropics?",
+        "subject": "college_biology",
+        "choices": [
+            "The higher species diversity in the tropics tends to increase plant growth.",
+            "There are lower metabolic costs to plant growth in the tropics.",
+            "The availability of water and warm temperatures in the tropics fosters photosynthesis.",
+            "The tropics have more predators that minimize herbivory."
+        ],
+        "answer": 2
+    },
+    {
+        "question": "The soils of which of the following biomes has the highest rate of leaching and cycling of nutrients?",
+        "subject": "college_biology",
+        "choices": [
+            "Tropical rain forest",
+            "Tundra",
+            "Taiga",
+            "Desert"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Adequate serum levels of calcium are maintained in humans by the secretion of",
+        "subject": "college_biology",
+        "choices": [
+            "thyroxine",
+            "glucagon",
+            "growth hormone",
+            "parathyroid hormone"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Antibiotics that affect bacterial cells interfere with all of the following EXCEPT",
+        "subject": "college_biology",
+        "choices": [
+            "peptidoglycan synthesis",
+            "protein synthesis",
+            "DNA synthesis",
+            "reverse transcriptase"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Nerve outgrowth from a developing neuron begins at the growth cone, located at the tip of the axon. Microspikes of the growth cone extend and retract in order to move the growth cone forward. Exposure of the neuron to cytochasalin B at this stage of development causes",
+        "subject": "college_biology",
+        "choices": [
+            "microtubules in the axon to undergo reversible dissociation",
+            "microtubules in the axon to undergo irreversible dissociation",
+            "microfilaments in the microspike to undergo reversible depolymerization",
+            "microfilaments in the microspike to undergo irreversible depolymerization"
+        ],
+        "answer": 2
+    }
+]

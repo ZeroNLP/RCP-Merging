@@ -1,0 +1,57 @@
+[
+    {
+        "question": "For very high force contractions lasting 1-2 seconds, the initial energy source is from:",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "Glycolysis.",
+            "creatine phosphorylation.",
+            "phosphocreatine stores.",
+            "ATP stores."
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Hypernatraemic dehydration is:",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "water intake is less than is needed to maintain balance.",
+            "water intake is more than is needed to maintain balance.",
+            "blood volume is lost due to trauma or burns.",
+            "blood volume is lost due to surgery."
+        ],
+        "answer": 0
+    },
+    {
+        "question": "A person is prescribed Ropinirole 1.5 mg divided into three doses. How many micrograms is each dose? Choose one answer from the following:",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "5",
+            "50",
+            "0.5",
+            "500"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which of the following processes is not used to modify protein structure after translation has occurred?",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "Lipidation.",
+            "Attachment of more amino acids via peptide bonds.",
+            "Glycosylation.",
+            "Phosphorylation."
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Fatty acids are transported into the mitochondria bound to:",
+        "subject": "clinical_knowledge",
+        "choices": [
+            "thiokinase.",
+            "coenzyme A (CoA).",
+            "acetyl-CoA.",
+            "carnitine."
+        ],
+        "answer": 3
+    }
+]

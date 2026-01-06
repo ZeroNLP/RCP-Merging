@@ -1,0 +1,68 @@
+[
+    {
+        "question":"Suppose that a test that the true value of the intercept coefficient is zero results in non-rejection. What would be the appropriate conclusion? Answer: Retain the intercept.",
+        "subject":"econometrics",
+        "choices":[
+            "Drop the intercept and re-run the regression",
+            "Retain the intercept",
+            "Re-compute the test statistic",
+            "The regression line is running exactly through the origin"
+        ],
+        "answer":1
+    },
+    {
+        "question":"In order to determine whether to use a fixed effects or random effects model, a researcher conducts a Hausman test. Which of the following statements is false? Answer: If the Hausman test is not satisfied, the random effects model is more appropriate.",
+        "subject":"econometrics",
+        "choices":[
+            "For random effects models, the use of OLS would result in consistent but inefficient parameter estimation",
+            "If the Hausman test is not satisfied, the random effects model is more appropriate.",
+            "Random effects estimation involves the construction of \"quasi-demeaned\" data",
+            "Random effects estimation will not be appropriate if the composite error term is correlated with one or more of the explanatory variables in the model"
+        ],
+        "answer":1
+    },
+    {
+        "question":"Suppose that observations are available on the monthly bond prices of 100 companies for 5 years. What type of data are these? Answer: Panel.",
+        "subject":"econometrics",
+        "choices":[
+            "Cross-sectional",
+            "Time-series",
+            "Panel",
+            "Qualitative"
+        ],
+        "answer":2
+    },
+    {
+        "question":"An \"ex ante\" forecasting model is one which Answer: Includes only previous values of variables on the RHS.",
+        "subject":"econometrics",
+        "choices":[
+            "Includes only contemporaneous values of variables on the RHS",
+            "Includes only contemporaneous and previous values of variables on the RHS",
+            "Includes only previous values of variables on the RHS",
+            "Includes only contemporaneous values of exogenous variables on the RHS"
+        ],
+        "answer":2
+    },
+    {
+        "question":"If a researcher uses daily data to examine a particular problem and creates a variable that assigns a numerical value of 1 to Monday observations, what term would best describe this type of number? Answer: Nominal.",
+        "subject":"econometrics",
+        "choices":[
+            "Continuous",
+            "Cardinal",
+            "Ordinal",
+            "Nominal"
+        ],
+        "answer":3
+    },
+    {
+        "question":"Consider the following MA(3) process\n\nyt = μ + Εt + θ1Εt-1 + θ2Εt-2 + θ3Εt-3 , where σt is a zero mean white noise process with variance σ2.\n\nWhich of the following statements are true?\n\ni) The process yt has zero mean\n\nii) The autocorrelation function will have a zero value at lag 5\n\niii) The process yt has variance σ2\n\niv) The autocorrelation function will have a value of one at lag 0. Answer: (ii) and (iv) only.",
+        "subject":"econometrics",
+        "choices":[
+            "(ii) and (iv) only",
+            "(i) and (iii) only",
+            "(i), (ii), and (iii) only",
+            "(i), (ii), (iii), and (iv)"
+        ],
+        "answer":0
+    }
+]
