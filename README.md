@@ -3,8 +3,14 @@
 [AAAI 2026 Main Track]: Official Code of "RCP-Merging: Merging Long Chain-of-Thought Models with Domain-Specific Models by Considering Reasoning Capability as Prior"
 
 ## Overview
-This is the repository designed for merging and evaluating fine-tuned models. It provides tools for model merging, evaluation, and gibberish detection. This README provides a detailed guide to the repository structure and instructions for usage.
+This repository contains the code and resources for **RCP-Merging** (Reasoning Capability as Prior Merging), a novel framework designed to merge domain-specific Large Language Models (LLMs) with models possessing long Chain-of-Thought (CoT) reasoning capabilities.
 
+<img src="RCP-Merging/RCP-Merging.pdf" width="100%" alt="RCP-Merging Framework Overview" />
+
+- We propose a novel model merging framework, RCP-Merging, which effectively integrates a domain-specific model with a long CoT reasoning model by treating reasoning ability as a prior.
+- We conduct extensive experiments across multiple benchmarks, demonstrating that RCP-Merging surpasses existing methods by preserving both specialized knowledge and long-CoT reasoning capabilities.
+- Results surprisingly demonstrate that models merged via RCP-Merging exhibit emergent long CoT reasoning capabilities within model outputs when handling domain-specific problems.
+  
 ## Repository Structure
 
 ### 1. `baselines/`
