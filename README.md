@@ -10,10 +10,11 @@ This is the repository designed for merging and evaluating fine-tuned models. It
 ### 1. `baselines/`
 This directory contains baseline implementations for model merging. It includes the following subdirectories:
 
-- **`catmerge/`**: Implements the `cat_merge.py` script for merging models using concatenation techniques. Users need to configure environment variables for paths and hyperparameters before running the script.
 - **`examples/`**: Contains YAML configuration files for different merging methods, such as `dare_linear.yml` and `ties.yml`. These files specify model paths, weights, and merging parameters.
+- **`catmerge/`**: Implements the `cat_merge.py` script for merging models using concatenation techniques. Users need to configure environment variables for paths and hyperparameters before running the script.
+- **`sensmerge/`**: Implements the "Sens-Merging" algorithm. This method calculates task-specific sensitivities and alignment scores to derive optimal merging coefficients.
 - **`mergekit/`**: Provides utilities and scripts for advanced merging techniques. (Note: The README for this directory is missing.)
-- **`sensmerge/`**: Implements the "Sens-Merging" algorithm. This method calculates task-specific sensitivities and alignment scores to derive optimal merging coefficients. Dependencies can be installed using:
+Dependencies can be installed using:
   ```bash
   pip install torch transformers tqdm
   ```
