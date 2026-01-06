@@ -7,6 +7,11 @@ This repository contains the code and resources for **RCP-Merging** (Reasoning C
 
 <img src="RCP-Merging.pdf" width="100%" alt="RCP-Merging Framework Overview" />
 
+<div align="center">
+  <img src="./RCP-Merging.pdf" width="95%"/>
+
+  **RCP-Merging Framework Overview:** RCP-Merging consists of three stages. (1) **Domain Knowledge Sensitivity**. This step quantifies each weight's importance for a specific domain by measuring the change in model loss when that weight is removed. (2) **Reasoning Preservation Indicator**. To protect the model's core reasoning capabilities, this stage applies a preservation term to weights that are crucial for reasoning. (3) **Reasoning-preserved Merging**. The final stage balances domain sensitivity and the reasoning preserving matrix, merging only the weights that enhance domain knowledge without harming reasoning capabilities.
+</div>
 - We propose a novel model merging framework, RCP-Merging, which effectively integrates a domain-specific model with a long CoT reasoning model by treating reasoning ability as a prior.
 - We conduct extensive experiments across multiple benchmarks, demonstrating that RCP-Merging surpasses existing methods by preserving both specialized knowledge and long-CoT reasoning capabilities.
 - Results surprisingly demonstrate that models merged via RCP-Merging exhibit emergent long CoT reasoning capabilities within model outputs when handling domain-specific problems.
