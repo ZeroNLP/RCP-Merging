@@ -8,7 +8,7 @@ This repository contains the code and resources for **RCP-Merging** (Reasoning C
 <img src="RCP-Merging.pdf" width="100%" alt="RCP-Merging Framework Overview" />
 
 <div align="center">
-  <img src="./RCP-Merging.pdf" width="95%"/>
+  <img src="./RCP-Merging.png" width="95%"/>
 
   **RCP-Merging Framework Overview:** RCP-Merging consists of three stages. (1) **Domain Knowledge Sensitivity**. This step quantifies each weight's importance for a specific domain by measuring the change in model loss when that weight is removed. (2) **Reasoning Preservation Indicator**. To protect the model's core reasoning capabilities, this stage applies a preservation term to weights that are crucial for reasoning. (3) **Reasoning-preserved Merging**. The final stage balances domain sensitivity and the reasoning preserving matrix, merging only the weights that enhance domain knowledge without harming reasoning capabilities.
 </div>
