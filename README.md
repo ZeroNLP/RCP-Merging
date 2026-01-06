@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/ZeroNLP/RCP-Merging
 cd RCP-Merging
 ```
 
