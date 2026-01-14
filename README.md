@@ -88,3 +88,13 @@ pip install -r requirements.txt
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for discussion.
 
+## BibTeX
+
+```bibtex
+@article{yang2025rcp,
+  title={RCP-Merging: Merging Long Chain-of-Thought Models with Domain-Specific Models by Considering Reasoning Capability as Prior},
+  author={Yang, Junyao and Wang, Jianwei and Zhuang, Huiping and Chen, Cen and Zeng, Ziqian},
+  journal={arXiv preprint arXiv:2508.03140},
+  year={2025}
+}
+```
