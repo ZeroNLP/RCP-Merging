@@ -7,7 +7,7 @@
   <h4>
     <a href="https://arxiv.org/abs/2508.03140"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:RCP-Merging&color=red&logo=arxiv"></a>
     <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=RCP-Merging" />
+    <!-- <img src="https://visitor-badge.laobi.icu/badge?page_id=RCP-Merging" /> -->
   </h4>
 </div>
 
